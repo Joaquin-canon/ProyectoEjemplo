@@ -40,3 +40,43 @@ Este comando permitirá descargar archivos actualizados de la rama en la que te 
 git pull origin main
 ```
 Este comando te actualizara los archivos locales con respecto a la versión que descargaste con (  git felch  )
+
+## Subir una actualizacion local al repositorio main 
+
+#### 1. Verificar cambios 
+
+```bash
+git status
+```
+Este comando me permite saber si realice algún tipo de cambio , si lo ejecuto me debería dar una información de los archivos que se han modificado 
+
+#### 2. Verificar la rama en que queiras subir la actulizacion 
+```bash
+git branch
+```
+Te permite ver la rama donde subiras y  harás la modificación 
+
+#### 3. Preparar archivos 
+
+```bash
+git add .
+```
+Te permite preparar Todos archibos los cuales les hiciste modificaciones 
+```bash
+git add archivo_ejemplo .txt
+```
+Te permite preparar un archivo en específico el cual hiciste  modificaciones 
+
+#### 4. Guarda los archivos 
+
+```bash
+git commit -m "Agrego función de búsqueda"
+```
+Este comando te permite guardar los archivos que preparaste con " git add " ,  ente las " " coloca un mensaje corto sobre los cambios realizados 
+
+#### 5. Subir cambios 
+
+```bash
+git push origin main
+```
+Este comando hará que los cambios locales (Origin) se suban o actualicen  la rama  main ( puede ser otra y puede tener otro nombre )
