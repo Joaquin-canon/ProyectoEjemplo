@@ -1,9 +1,6 @@
-# Autoguia construcción 
-Pruebas de repositorios 
-Autor: Joaquín Cañon
- 
 
-# 🦉 Autoguía para manejar Github 
+Autor: Joaquín Cañon
+# 🦉 Autoguía para manejar Github ( sin terminar )
 En este repositorio practicaré el uso de Github. Me daré instrucciones para hacer, descargar, actualizar y subir un repositorio 
 
 
