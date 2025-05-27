@@ -50,11 +50,18 @@ git status
 ```
 Este comando me permite saber si realice algún tipo de cambio , si lo ejecuto me debería dar una información de los archivos que se han modificado 
 
-#### 2. Verificar la rama en que queiras subir la actulizacion 
+#### 2. Verificar la rama en que quieras subir la actualización
 ```bash
 git branch
 ```
 Te permite ver la rama donde subiras y  harás la modificación 
+
+#### 2.1 Si NO aparece la rama 
+
+```bash
+git fetch --all
+```
+Este comando te permite actualizar el estado de las ramas si crearte una nueva y no apaarece 
 
 #### 3. Preparar archivos 
 
