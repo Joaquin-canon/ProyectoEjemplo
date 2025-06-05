@@ -30,7 +30,7 @@ Crea una carpeta , usando el cmd con el comando cd y la ruta del explorador de a
 #### 1. Descargar actualización 
 
 ```bash
-git felch 
+git fetch
 ```
 Este comando permitirá descargar archivos actualizados de la rama en la que te encuentres ( No afectará los archivos locales)
 
