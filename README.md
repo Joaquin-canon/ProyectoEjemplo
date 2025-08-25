@@ -52,7 +52,7 @@ Este comando me permite saber si realice algún tipo de cambio, si lo ejecuto me
 
 #### 2. Verificar la rama en que quieras subir la actualización
 ```bash
-git branch
+git   branch
 ```
 Te permite ver la rama donde subirás y  harás la modificación 
 
